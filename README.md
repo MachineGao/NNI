@@ -178,6 +178,7 @@ TensorFlow是一个基于数据流编程（dataflow programming）的符号数�
  1. **样例概述** 
  
  [MNIST](https://github.com/Microsoft/nni/tree/master/examples/trials/mnist)是深度学习的经典入门demo，它是由6万张训练图片和1万张测试图片构成的，每张图片都是28*28大小（如下图），而且都是黑白色构成（这里的黑色是一个0-1的浮点数，黑色越深表示数值越靠近1），这些图片是采集的不同的人手写从0到9的数字。TensorFlow将这个数据集和相关操作封装到了库中，而NNI可以为基于TensorFlow的深度学习算法搜索最佳的模型和超参。
+ 
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019021423025644.png)
 
  2. **如何在 NNI 中使用 TensorFlow** 
