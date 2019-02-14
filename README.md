@@ -5,19 +5,19 @@
 NNI (Neural Network Intelligence) 是自动机器学习（AutoML）的工具包。 它通过多种调优的算法来搜索最好的神经网络结构和（或）超参，并支持单机、本地多机、云等不同的运行环境。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190214203308383.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhb3NoaXNodW4xNA==,size_16,color_FFFFFF,t_70)
 
-                |    Supported Frameworks   |Tuning Algorithms                          |Training Services                         
-                |----------------|-------------------------------|-----------------------------|
-                |PyTorch|TPE         |Local Machine          |
-                |TensorFlow          |Random Search            |Remote Servers           |
-                |Keras          |Anneal|OpenPAI|
-                |MXNet          |Naive Evolution|Kubeflow|
-                |Caffe2          |SMAC|FrameworkController on K8S (AKS etc.)|
-                |CNTK           |Batch||
-                |KerasChainer          |Grid Search||
-                |Theano          |Hyperband||
-                |         |Network Morphism||
-                |         |ENAS||
-                |         |Metis Tuner||
+|    Supported Frameworks   |Tuning Algorithms                          |Training Services                         
+|----------------|-------------------------------|-----------------------------|
+|PyTorch|TPE         |Local Machine          |
+|TensorFlow          |Random Search            |Remote Servers           |
+|Keras          |Anneal|OpenPAI|
+|MXNet          |Naive Evolution|Kubeflow|
+|Caffe2          |SMAC|FrameworkController on K8S (AKS etc.)|
+|CNTK           |Batch||
+|KerasChainer          |Grid Search||
+|Theano          |Hyperband||
+|         |Network Morphism||
+|         |ENAS||
+|         |Metis Tuner||
 
 **使用场景**
 - 在本地 Trial 不同的自动机器学习算法来训练模型。
