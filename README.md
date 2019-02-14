@@ -1,10 +1,10 @@
 # NNI
 使用NNI的scikit-learn以及tensorflow分析
-@[TOC](使用NNI的scikit-learn以及MINIST分析)
 # 一、NNI简介
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190214202656481.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhb3NoaXNodW4xNA==,size_16,color_FFFFFF,t_70)
 NNI (Neural Network Intelligence) 是自动机器学习（AutoML）的工具包。 它通过多种调优的算法来搜索最好的神经网络结构和（或）超参，并支持单机、本地多机、云等不同的运行环境。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190214203308383.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhb3NoaXNodW4xNA==,size_16,color_FFFFFF,t_70)
+
 |    Supported Frameworks   |Tuning Algorithms                          |Training Services                         
 |----------------|-------------------------------|-----------------------------|
 |PyTorch|TPE         |Local Machine          |
@@ -176,7 +176,8 @@ TensorFlow是一个基于数据流编程（dataflow programming）的符号数�
 
  1. **样例概述** 
  
- [MNIST](https://github.com/Microsoft/nni/tree/master/examples/trials/mnist)是深度学习的经典入门demo，它是由6万张训练图片和1万张测试图片构成的，每张图片都是28*28大小（如下图），而且都是黑白色构成（这里的黑色是一个0-1的浮点数，黑色越深表示数值越靠近1），这些图片是采集的不同的人手写从0到9的数字。TensorFlow将这个数据集和相关操作封装到了库中，而NNI可以为基于TensorFlow的深度学习算法搜索最佳的模型和超参。![在这里插入图片描述](https://img-blog.csdnimg.cn/2019021423025644.png)
+ [MNIST](https://github.com/Microsoft/nni/tree/master/examples/trials/mnist)是深度学习的经典入门demo，它是由6万张训练图片和1万张测试图片构成的，每张图片都是28*28大小（如下图），而且都是黑白色构成（这里的黑色是一个0-1的浮点数，黑色越深表示数值越靠近1），这些图片是采集的不同的人手写从0到9的数字。TensorFlow将这个数据集和相关操作封装到了库中，而NNI可以为基于TensorFlow的深度学习算法搜索最佳的模型和超参。
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019021423025644.png)
 
  2. **如何在 NNI 中使用 TensorFlow** 
  
