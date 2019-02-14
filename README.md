@@ -18,6 +18,7 @@ NNI (Neural Network Intelligence) 是自动机器学习（AutoML）的工具包�
 |         |Network Morphism||
 |         |ENAS||
 |         |Metis Tuner||
+
 **使用场景**
 - 在本地 Trial 不同的自动机器学习算法来训练模型。
 - 在分布式环境中加速自动机器学习（如：远程 GPU 工作站和云服务器）。
